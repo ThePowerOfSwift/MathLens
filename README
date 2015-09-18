@@ -8,8 +8,7 @@ Used APIs:
 - TesseractOCR : open source library which is used to recognize the letters. Using tesseract on virtual machine, I was able to train tesseract to mathematical equations, italicized letters, and english letters.
 
 Features to Add:
-- Handle errors in reading problems
 - Add ability to rotate, move, and zoom
 - Matrix arithmetic
 - Matrix algebra
-- Train tesseract to greek letters, treat these as either pi or variables
+- Train tesseract to greek letters, specifically pi

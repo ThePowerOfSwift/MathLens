@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B0D8A37F-F8C6-4D18-8500-1CAE1053AAA9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MathCam</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>808900BBD667F5DD342573383D83DA534FD295EF</key>
+		<string>https://github.com/achintyagopal/MathLens.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MathCam.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>808900BBD667F5DD342573383D83DA534FD295EF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/achintyagopal/MathLens.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>808900BBD667F5DD342573383D83DA534FD295EF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>808900BBD667F5DD342573383D83DA534FD295EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MathLens</string>
+		</dict>
+	</array>
+</dict>
+</plist>

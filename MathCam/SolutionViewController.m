@@ -55,13 +55,18 @@
    
     if(self.problemType == 0){
         //print unable to recognize problem type
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error" message:problem2 delegate:self cancelButtonTitle:@"Problem Determining Problem Type" otherButtonTitles: nil];
+        [alert show];
     }
     else if(self.problemType == 1){
         float a = [self arithmeticCalculation:problem2];
-        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Result" message:problem2 delegate:self cancelButtonTitle:@"COOL" otherButtonTitles: nil];
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Result" message:[NSString stringWithFormat:@"Answer: %f",a] delegate:self cancelButtonTitle:@"COOL" otherButtonTitles: nil];
         [alert show];
     }
-    
+    else{
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Error" message:problem2 delegate:self cancelButtonTitle:@"Can't handle problem type" otherButtonTitles: nil];
+        [alert show];
+    }
 }
 
 /*

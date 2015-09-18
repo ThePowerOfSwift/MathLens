@@ -171,14 +171,14 @@
     UIRotationGestureRecognizer *rotGR = [[UIRotationGestureRecognizer alloc]initWithTarget:self action:@selector(rotateImage:)];
     //rotGR.numberOfTouches = 2;
     self.image = NULL;
-    [self.view addGestureRecognizer:rotGR];
+    //[self.view addGestureRecognizer:rotGR];
     
     UIPinchGestureRecognizer *pinchGR = [[UIPinchGestureRecognizer alloc]initWithTarget:self action:@selector(pinchImage:)];
-    [self.view addGestureRecognizer:pinchGR];
+    //[self.view addGestureRecognizer:pinchGR];
     
     UIPanGestureRecognizer *panGR = [[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(moveImage:)];
     panGR.minimumNumberOfTouches = 2;
-    [self.view addGestureRecognizer:panGR];
+    //[self.view addGestureRecognizer:panGR];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(yourNotificationHandler:)
@@ -237,7 +237,6 @@
 -(void)rotateImage:(UIRotationGestureRecognizer *)recognize{
     self.imageView.transform = CGAffineTransformRotate(self.imageView.transform, recognize.rotation);
     recognize.rotation = 0;
-    
 }
 
 -(void)pinchImage: (UIPinchGestureRecognizer *)recognize{

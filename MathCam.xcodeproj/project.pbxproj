@@ -40,7 +40,6 @@
 		E34791651ADB73F800B71069 /* PropertyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E34791631ADB73F800B71069 /* PropertyTableCell.xib */; };
 		E379C3EE1ADD92E300E008DA /* SolutionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E379C3EC1ADD92E300E008DA /* SolutionViewController.m */; };
 		E379C3EF1ADD92E300E008DA /* SolutionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E379C3ED1ADD92E300E008DA /* SolutionViewController.xib */; };
-		E379C3F81AE8B68100E008DA /* flashlight.png in Resources */ = {isa = PBXBuildFile; fileRef = E379C3F71AE8B68100E008DA /* flashlight.png */; };
 		E3876FB61AD3B6D800FA8727 /* EquationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E3876FB51AD3B6D800FA8727 /* EquationInfo.m */; };
 		E3876FBC1AD3B93500FA8727 /* LetterInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E3876FBB1AD3B93500FA8727 /* LetterInfo.m */; };
 		E3E4E1CA1B757EED0016D634 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E4E1C91B757EED0016D634 /* Rectangle.m */; };
@@ -446,7 +445,6 @@
 		E379C3EB1ADD92E300E008DA /* SolutionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolutionViewController.h; sourceTree = "<group>"; };
 		E379C3EC1ADD92E300E008DA /* SolutionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolutionViewController.m; sourceTree = "<group>"; };
 		E379C3ED1ADD92E300E008DA /* SolutionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolutionViewController.xib; sourceTree = "<group>"; };
-		E379C3F71AE8B68100E008DA /* flashlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flashlight.png; sourceTree = SOURCE_ROOT; };
 		E3876FB41AD3B6D800FA8727 /* EquationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquationInfo.h; sourceTree = "<group>"; };
 		E3876FB51AD3B6D800FA8727 /* EquationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquationInfo.m; sourceTree = "<group>"; };
 		E3876FBA1AD3B93500FA8727 /* LetterInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LetterInfo.h; sourceTree = "<group>"; };
@@ -944,7 +942,6 @@
 				E30FBBC51AD9C4E400815F04 /* CaptureSessionManager.m */,
 				E3876FB41AD3B6D800FA8727 /* EquationInfo.h */,
 				E3876FB51AD3B6D800FA8727 /* EquationInfo.m */,
-				E379C3F71AE8B68100E008DA /* flashlight.png */,
 				E30FBBBE1AD9C4D400815F04 /* ImageProcessor.h */,
 				E30FBBBF1AD9C4D400815F04 /* ImageProcessor.mm */,
 				E3876FBA1AD3B93500FA8727 /* LetterInfo.h */,
@@ -1090,7 +1087,6 @@
 				E339BF871BA68DA9002C204D /* build_dependencies.sh in Resources */,
 				E34791601ADA339F00B71069 /* SettingsViewController.xib in Resources */,
 				E33C656C1AD2112600EDDCFC /* tessdata in Resources */,
-				E379C3F81AE8B68100E008DA /* flashlight.png in Resources */,
 				E34791651ADB73F800B71069 /* PropertyTableCell.xib in Resources */,
 				E3EA6C941ACA4E2800CB2C23 /* LaunchScreen.xib in Resources */,
 				E3EA6C911ACA4E2800CB2C23 /* Images.xcassets in Resources */,
