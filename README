@@ -1,4 +1,4 @@
-# MathLens - Solve Math Problems with a Single Click
+MathLens - Solve Math Problems with a Single Click
 
 How to Use:
 After building and running the project, you can either use front or back camera (if you don't have one of these cameras, the app accounts for this). If you do not have a camera, you can choose photos from your photo library. After choosing or taking a picture, you can crop the picture by drawing a cropping rectangle with one finger. Now, you can click calculate at the problem left corner. Then the view changes and has an alert with the answer or error if problem reading in the problem.
